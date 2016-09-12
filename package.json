@@ -1,0 +1,26 @@
+{
+  "name": "bianco",
+  "version": "0.0.0",
+  "description": " Modern DOM helpers library written only in es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'silence is gold'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianlucaGuarini/bianco.git"
+  },
+  "keywords": [
+    "es6",
+    "dom",
+    "helpers",
+    "es2015",
+    "utility"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaGuarini/bianco/issues"
+  },
+  "homepage": "https://github.com/GianlucaGuarini/bianco#readme"
+}
