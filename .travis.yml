@@ -10,6 +10,7 @@ before_install:
   - npm i rollup@0.35.9
   - npm i eslint@3.0.1
   - npm i @gianlucaguarini/eslint-config@1.0.0
+  - npm i
   - npm run build
 
 notifications:
