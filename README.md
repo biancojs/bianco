@@ -8,9 +8,11 @@
 
 __Bianco__ is a _modern_ DOM helpers _micro library_
 
+[work in progress... come back soon!]
+
 # Why the hell?
 
-Bianco is on the top of the following main concepts that I was not able to find
+Bianco is designed on the following main concepts that I was not able to find
 in any similar framework so far:
 
 - built in __es2015__ for __es2015__ projects
@@ -32,7 +34,7 @@ const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 
 ## API
 
-Bianco is build out on the top of many micro DOM helpers.
+Bianco is build out on the top of many micro DOM helpers.<br>
 It's strongly recommended to install only the modules you really need
 
 - DOM queries [bianco-query](https://github.com/GianlucaGuarini/bianco-query#api)
