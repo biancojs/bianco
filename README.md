@@ -32,7 +32,8 @@ const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 
 ## API
 
-Bianco is build from many micro DOM helpers
+Bianco is build out on the top of many micro DOM helpers.
+It's strongly recommended to install only the modules you really need
 
 - DOM queries [bianco-query](https://github.com/GianlucaGuarini/bianco-query#api)
 - DOM events [bianco-events](https://github.com/GianlucaGuarini/bianco-events#api)
