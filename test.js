@@ -10,9 +10,9 @@ function setup() {
   document.body.appendChild(div)
 }
 
-
 setup()
 
 const div = $('div')
-
 assert.equal(div.length, 1)
+
+// all the bianco's helpers should be already properly tested in their own repos!!
