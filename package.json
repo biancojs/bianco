@@ -4,7 +4,10 @@
   "description": " Modern DOM helpers library written only in es6",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'silence is gold'"
+    "prepublish": "npm run build && npm test",
+    "lint": "eslint index.next.js test.js",
+    "build": "rollup -c",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/GianlucaGuarini/bianco/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/bianco#readme"
+  "homepage": "https://github.com/GianlucaGuarini/bianco#readme",
+  "devDependencies": {
+    "jsdom": "9.5.0",
+    "jsdom-global": "2.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "dependencies": {
+    "bianco-events": "0.0.1",
+    "bianco-query": "0.0.1"
+  }
 }
