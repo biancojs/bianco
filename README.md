@@ -1,4 +1,6 @@
-# bianco
+![Logo bianco](logo-bianco.png)
+
+---
 
 [![Build Status][travis-image]][travis-url]
 

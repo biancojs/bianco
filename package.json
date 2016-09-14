@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GianlucaGuarini/bianco.git"
+    "url": "git+https://github.com/biancojs/bianco.git"
   },
   "keywords": [
     "es6",
@@ -23,9 +23,9 @@
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GianlucaGuarini/bianco/issues"
+    "url": "https://github.com/biancojs/bianco/issues"
   },
-  "homepage": "https://github.com/GianlucaGuarini/bianco#readme",
+  "homepage": "https://github.com/biancojs/bianco#readme",
   "devDependencies": {
     "jsdom": "9.5.0",
     "jsdom-global": "2.1.0",
