@@ -39,11 +39,11 @@ const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 Bianco is build out on the top of many micro DOM helpers.<br>
 It's strongly recommended to install only the modules you really need
 
-- DOM queries [bianco-query](https://github.com/GianlucaGuarini/bianco-query#api)
-- DOM events [bianco-events](https://github.com/GianlucaGuarini/bianco-events#api)
+- DOM queries [bianco-query](https://github.com/biancojs/bianco-query#api)
+- DOM events [bianco-events](https://github.com/biancojs/bianco-events#api)
 
-[travis-image]:https://img.shields.io/travis/GianlucaGuarini/bianco.svg?style=flat-square
-[travis-url]:https://travis-ci.org/GianlucaGuarini/bianco
+[travis-image]:https://img.shields.io/travis/biancojs/bianco.svg?style=flat-square
+[travis-url]:https://travis-ci.org/biancojs/bianco
 
 [license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 [license-url]:LICENSE.txt
