@@ -40,6 +40,22 @@ It's strongly recommended to install only the modules you really need
 - DOM queries [bianco-query](https://github.com/biancojs/query#api)
 - DOM events [bianco-events](https://github.com/biancojs/events#api)
 
+## TODO
+
+List of the bianco modules to create:
+
+- [x] bianco-events
+- [x] bianco-query
+- [ ] bianco-helpers ( it will contain the shared code across all the modules )
+- [ ] bianco-images-loader (kind of already done...) (It will use generators)
+- [ ] bianco-viewport
+- [ ] bianco-pointer
+- [ ] bianco-template
+- [ ] ~~bianco-ajax~~ (naa.. explain why `fetch` is better)
+- [ ] bianco-css
+- [ ] bianco-attr
+- [ ] bianco-animate (maybe? Or it's better to use just one of the other 1000 libs?)
+
 [travis-image]:https://img.shields.io/travis/biancojs/bianco.svg?style=flat-square
 [travis-url]:https://travis-ci.org/biancojs/bianco
 
