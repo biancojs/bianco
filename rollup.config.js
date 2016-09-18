@@ -13,5 +13,5 @@ export default {
       format: 'umd',
       moduleName: 'bianco'
     }
-  ],
+  ]
 }

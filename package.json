@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prepublish": "npm run build && npm test",
-    "lint": "eslint index.next.js test.js",
+    "lint": "eslint index.next.js test.js rollup.config.js",
     "build": "rollup -c",
-    "test": "npm run lint"
+    "test": "npm run lint && mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "rollup-plugin-node-resolve": "^2.0.0"
   },
   "dependencies": {
-    "bianco-events": "^0.0.2",
-    "bianco-query": "^0.0.2"
+    "bianco.events": "^0.0.1",
+    "bianco.query": "^0.0.2"
   }
 }

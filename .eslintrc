@@ -1,1 +1,3 @@
 extends: "@gianlucaguarini/eslint-config"
+env:
+  mocha: true

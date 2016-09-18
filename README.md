@@ -27,7 +27,7 @@ in any similar framework so far:
 ```js
 import { $ } from 'bianco'
 // or also
-import $ from 'bianco-query'
+import $ from 'bianco.query'
 
 const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 ```
