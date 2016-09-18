@@ -37,24 +37,27 @@ const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 Bianco is build out on the top of many micro DOM helpers.<br>
 It's strongly recommended to install only the modules you really need
 
-- DOM queries [bianco-query](https://github.com/biancojs/query#api)
-- DOM events [bianco-events](https://github.com/biancojs/events#api)
+- [bianco.query](https://github.com/biancojs/query#api) DOM queries
+- [bianco.events](https://github.com/biancojs/events#api) DOM events
+- [bianco.is-iterable](https://github.com/biancojs/is-iterable#api) Check for iterable objects
+- [bianco.dom-to-array](https://github.com/biancojs/dom-to-array#api) Convert any DOM node/s into arrays
 
 ## TODO
 
 List of the bianco modules to create:
 
-- [x] bianco-events
-- [x] bianco-query
-- [ ] bianco-helpers ( it will contain the shared code across all the modules )
-- [ ] bianco-images-loader (kind of already done...) (It will use generators)
-- [ ] bianco-viewport
-- [ ] bianco-pointer
-- [ ] bianco-template
-- [ ] ~~bianco-ajax~~ (naa.. explain why `fetch` is better)
-- [ ] bianco-css
-- [ ] bianco-attr
-- [ ] bianco-animate (maybe? Or it's better to use just one of the other 1000 libs?)
+- [x] bianco.events
+- [x] bianco.query
+- [x] bianco.is-iterable
+- [x] bianco.dom-to-array
+- [ ] bianco.images-loader (kind of already done...) (It will use generators)
+- [ ] bianco.viewport
+- [ ] bianco.pointer
+- [ ] bianco.template
+- [ ] ~~bianco.ajax~~ (naa.. explain why `fetch` is better)
+- [ ] bianco.css
+- [ ] bianco.attr
+- [ ] bianco.animate (maybe? Or it's better to use just one of the other 1000 libs?)
 
 [travis-image]:https://img.shields.io/travis/biancojs/bianco.svg?style=flat-square
 [travis-url]:https://travis-ci.org/biancojs/bianco
