@@ -32,7 +32,7 @@
     "rollup-plugin-node-resolve": "^2.0.0"
   },
   "dependencies": {
-    "bianco.events": "^0.0.1",
-    "bianco.query": "^0.0.2"
+    "bianco.events": "^0.0.2",
+    "bianco.query": "^0.0.3"
   }
 }

@@ -17,7 +17,8 @@ in any similar framework so far:
 
 - built in __es2015__ for __es2015__ projects
 - coded with __standards__ targeting only __modern browsers__
-- __modularity__, any bianco helper can be used alone without installing the whole framework
+- __modularity__, bianco is totally designed in modules. Any bianco helper can be used alone without installing the whole framework
+- __functional__, in bianco we use only pure functions to let you build your software combining them however you want
 - __size matters__, any helper method tries to accomplish a specific functionality with the minimal amount of code
 - optimized for tree shacking and for build tools like [rollup](https://github.com/rollup/rollup)
 - readability & simplicity & elegance of the source code
