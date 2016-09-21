@@ -40,7 +40,7 @@ It's strongly recommended to install only the modules you really need
 
 - [bianco.query](https://github.com/biancojs/query#api) DOM queries
 - [bianco.events](https://github.com/biancojs/events#api) DOM events
-- [bianco.is-iterable](https://github.com/biancojs/is-iterable#api) Check for iterable objects
+- [bianco.images-loader](https://github.com/biancojs/images-loader#api) Load images using promises
 - [bianco.dom-to-array](https://github.com/biancojs/dom-to-array#api) Convert any DOM node/s into arrays
 
 ## TODO
@@ -49,9 +49,8 @@ List of the bianco modules to create:
 
 - [x] bianco.events
 - [x] bianco.query
-- [x] bianco.is-iterable
 - [x] bianco.dom-to-array
-- [ ] bianco.images-loader (kind of already done...) (It will use generators)
+- [x] bianco.images-loader
 - [ ] bianco.viewport
 - [ ] bianco.pointer
 - [ ] bianco.template

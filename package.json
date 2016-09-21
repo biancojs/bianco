@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "bianco.events": "^0.0.2",
+    "bianco.images-loader": "0.0.1",
     "bianco.query": "^0.0.3"
   }
 }
