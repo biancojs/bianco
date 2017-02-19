@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/biancojs/bianco#readme",
   "devDependencies": {
-    "jsdom": "9.8.0",
-    "jsdom-global": "2.1.0",
+    "jsdom": "9.11.0",
+    "jsdom-global": "2.1.1",
     "rollup-plugin-node-resolve": "^2.0.0"
   },
   "dependencies": {

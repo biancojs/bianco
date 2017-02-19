@@ -52,6 +52,7 @@ List of the bianco modules to create:
 - [x] bianco.query
 - [x] bianco.dom-to-array
 - [x] bianco.images-loader
+- [ ] bianco.monad or bianco.chain?
 - [ ] bianco.viewport
 - [ ] bianco.pointer
 - [ ] ~~bianco.template~~ (why? use es6 template strings instead!)

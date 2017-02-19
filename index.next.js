@@ -13,7 +13,11 @@ export {
 } from 'bianco.events'
 
 // image helpers
-export { loadImage, loadImages, loadImagesGen } from 'bianco.images-loader'
+export {
+  loadImage,
+  loadImages,
+  loadImagesGen
+} from 'bianco.images-loader'
 
 // attributes helpers
 export {
