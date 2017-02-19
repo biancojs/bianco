@@ -34,7 +34,7 @@
   "dependencies": {
     "bianco.events": "^0.0.4",
     "bianco.images-loader": "0.0.4",
-    "bianco.query": "^0.0.4",
+    "bianco.query": "^0.0.5",
     "bianco.attr": "^0.0.2"
   }
 }
