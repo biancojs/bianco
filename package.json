@@ -3,6 +3,8 @@
   "version": "0.0.7",
   "description": " Modern DOM helpers library written only in es6",
   "main": "index.js",
+  "jsnext:main": "index.next.js",
+  "module": "index.next.js",
   "scripts": {
     "prepublish": "npm run build && npm test",
     "lint": "eslint index.next.js test.js rollup.config.js",
