@@ -6,7 +6,7 @@
   "jsnext:main": "index.next.js",
   "module": "index.next.js",
   "scripts": {
-    "prepublish": "npm run build && npm test",
+    "prepare": "npm run build && npm test",
     "lint": "eslint index.next.js test.js rollup.config.js",
     "build": "rollup -c",
     "test": "npm run lint && mocha test.js"
@@ -29,14 +29,15 @@
   },
   "homepage": "https://github.com/biancojs/bianco#readme",
   "devDependencies": {
-    "jsdom": "9.11.0",
-    "jsdom-global": "2.1.1",
-    "rollup-plugin-node-resolve": "^2.0.0"
+    "jsdom": "11.3.0",
+    "jsdom-global": "3.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "bianco.events": "^0.0.4",
-    "bianco.images-loader": "0.0.4",
-    "bianco.query": "^0.0.5",
-    "bianco.attr": "^0.0.2"
+    "bianco.attr": "^0.0.2",
+    "bianco.css": "0.0.1",
+    "bianco.events": "^0.0.5",
+    "bianco.images-loader": "0.0.5",
+    "bianco.query": "^0.0.6"
   }
 }

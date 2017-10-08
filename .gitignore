@@ -38,3 +38,6 @@ jspm_packages
 
 # generated files
 index.js
+
+# useless files
+.DS_Store

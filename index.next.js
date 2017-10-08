@@ -12,11 +12,17 @@ export {
   once as onceEvent
 } from 'bianco.events'
 
+// css helpers
+export {
+  get as getCss,
+  set as setCss,
+  remove as removeCss
+} from 'bianco.css'
+
 // image helpers
 export {
   loadImage,
-  loadImages,
-  loadImagesGen
+  loadImages
 } from 'bianco.images-loader'
 
 // attributes helpers
