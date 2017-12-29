@@ -38,12 +38,14 @@ const coolDivs = $('div').filter(d => d.classList.contains('cool'))
 Bianco is build out on the top of many micro DOM helpers.<br>
 It's strongly recommended to install only the modules you really need
 
-- [bianco.query](https://github.com/biancojs/query#api) DOM queries
 - [bianco.events](https://github.com/biancojs/events#api) DOM events
-- [bianco.images-loader](https://github.com/biancojs/images-loader#api) Load images using promises
-- [bianco.attr](https://github.com/biancojs/attr#api) DOM attributes
-- [bianco.css](https://github.com/biancojs/css#api) Css helpers
+- [bianco.query](https://github.com/biancojs/query#api) DOM queries
 - [bianco.dom-to-array](https://github.com/biancojs/dom-to-array#api) Convert any DOM node/s into arrays
+- [bianco.images-loader](https://github.com/biancojs/images-loader#api) Load images with promises
+- [bianco.viewport](https://github.com/biancojs/viewport#api) Viewport properties and utils (scrollbar width, scrollTop...)
+- [bianco.force-reflow](https://github.com/biancojs/force-reflow#api) Force DOM reflows
+- [bianco.css](https://github.com/biancojs/css#api) CSS helper
+- [bianco.attr](https://github.com/biancojs/attr#api) DOM attributes
 
 ## TODO
 
