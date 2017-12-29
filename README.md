@@ -53,14 +53,16 @@ List of the bianco modules to create:
 - [x] bianco.query
 - [x] bianco.dom-to-array
 - [x] bianco.images-loader
-- [ ] bianco.monad or bianco.chain?
-- [ ] bianco.viewport
+- [ ] ~~bianco.monad or bianco.chain?~~ [see ruit](https://github.com/GianlucaGuarini/ruit)
+- [ ] ~~bianco.stream~~ [see erre](https://github.com/GianlucaGuarini/erre)
+- [x] bianco.viewport
+- [x] bianco.force-reflow
 - [ ] bianco.pointer
 - [ ] ~~bianco.template~~ (why? use es6 template strings instead!)
 - [ ] ~~bianco.ajax~~ (naa.. explain why `fetch` is better)
 - [x] bianco.css
 - [x] bianco.attr
-- [ ] ~~bianco.animate~~ (maybe? Or it's better to use just one of the other 1000 libs?)
+- [ ] ~~bianco.animate~~ [see animore](https://github.com/GianlucaGuarini/animore)
 
 [travis-image]:https://img.shields.io/travis/biancojs/bianco.svg?style=flat-square
 [travis-url]:https://travis-ci.org/biancojs/bianco
