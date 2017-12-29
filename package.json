@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/biancojs/bianco#readme",
   "devDependencies": {
-    "jsdom": "11.3.0",
+    "jsdom": "11.5.1",
     "jsdom-global": "3.0.2",
     "rollup-plugin-node-resolve": "^3.0.0"
   },
@@ -38,6 +38,7 @@
     "bianco.css": "0.0.1",
     "bianco.events": "^0.0.5",
     "bianco.images-loader": "0.0.5",
-    "bianco.query": "^0.0.6"
+    "bianco.query": "^0.0.6",
+    "bianco.viewport": "0.0.2"
   }
 }

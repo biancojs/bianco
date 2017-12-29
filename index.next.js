@@ -25,6 +25,17 @@ export {
   loadImages
 } from 'bianco.images-loader'
 
+// viewport module
+export {
+  scrollbarWidth,
+  documentHeight,
+  documentWidth,
+  scrollTop,
+  scrollLeft,
+  elementOffsetTop,
+  elementOffsetLeft
+} from 'bianco.viewport'
+
 // attributes helpers
 export {
   get as getAttr,
