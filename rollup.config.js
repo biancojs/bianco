@@ -1,17 +1,17 @@
 import resolve from 'rollup-plugin-node-resolve'
 
 export default {
-  entry: 'index.next.js',
+  input: 'index.next.js',
   plugins: [
     resolve({
       jsnext: true
     })
   ],
-  targets: [
+  output: [
     {
-      dest: 'index.js',
+      file: 'index.js',
       format: 'umd',
-      moduleName: 'bianco'
+      name: 'bianco'
     }
   ]
 }

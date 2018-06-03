@@ -6,12 +6,6 @@ branches:
   only:
     - master
 
-before_install:
-  - npm i rollup@0.35.9
-  - npm i eslint@3.0.1
-  - npm i @gianlucaguarini/eslint-config@1.0.0
-  - npm i mocha@3.0.2
-
 before_script:
   - npm run build
 
