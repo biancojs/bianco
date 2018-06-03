@@ -29,16 +29,16 @@
   },
   "homepage": "https://github.com/biancojs/bianco#readme",
   "devDependencies": {
-    "jsdom": "11.7.0",
+    "jsdom": "11.11.0",
     "jsdom-global": "3.0.2",
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "bianco.attr": "^0.0.2",
-    "bianco.css": "0.0.1",
-    "bianco.events": "^0.0.5",
+    "bianco.attr": "^0.0.3",
+    "bianco.css": "0.0.3",
+    "bianco.events": "^0.0.6",
     "bianco.images-loader": "0.0.5",
-    "bianco.query": "^0.0.6",
-    "bianco.viewport": "0.0.2"
+    "bianco.query": "^0.0.7",
+    "bianco.viewport": "0.0.4"
   }
 }
