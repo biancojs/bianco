@@ -46,5 +46,5 @@ export {
 
 // pointer helpers
 export {
-  postion as pointerPosition
+  position as pointerPosition
 } from 'bianco.pointer'
