@@ -38,11 +38,12 @@
     "rollup-plugin-node-resolve": "^3.4.0"
   },
   "dependencies": {
-    "bianco.attr": "^0.0.5",
-    "bianco.css": "0.0.4",
-    "bianco.events": "^0.0.7",
-    "bianco.images-loader": "0.0.7",
-    "bianco.query": "^0.0.8",
-    "bianco.viewport": "0.0.5"
+    "bianco.attr": "^1.0.0",
+    "bianco.css": "^1.0.0",
+    "bianco.events": "^1.0.0",
+    "bianco.images-loader": "^1.0.0",
+    "bianco.pointer": "^1.0.0",
+    "bianco.query": "^1.0.0",
+    "bianco.viewport": "^1.0.0"
   }
 }

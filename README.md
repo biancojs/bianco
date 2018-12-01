@@ -46,6 +46,7 @@ It's strongly recommended to install only the modules you really need
 - [bianco.force-reflow](https://github.com/biancojs/force-reflow#api) Force DOM reflows
 - [bianco.css](https://github.com/biancojs/css#api) CSS helper
 - [bianco.attr](https://github.com/biancojs/attr#api) DOM attributes
+- [bianco.pointer](https://github.com/biancojs/pointer#api) Pointer events helpers
 
 ## TODO
 
@@ -59,8 +60,8 @@ List of the bianco modules to create:
 - [x] bianco.force-reflow
 - [x] bianco.css
 - [x] bianco.attr
-- [ ] bianco.cookie
-- [ ] bianco.pointer
+- [x] bianco.pointer
+- [ ] ~~bianco.cookie~~ [see cookie-js](https://github.com/js-cookie/js-cookie)
 - [ ] ~~bianco.monad or bianco.chain?~~ [see ruit](https://github.com/GianlucaGuarini/ruit)
 - [ ] ~~bianco.stream~~ [see erre](https://github.com/GianlucaGuarini/erre)
 - [ ] ~~bianco.animate~~ [see animore](https://github.com/GianlucaGuarini/animore)

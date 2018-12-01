@@ -12,6 +12,14 @@ export {
   once as onceEvent
 } from 'bianco.events'
 
+// attributes helpers
+export {
+  get as getAttr,
+  set as setAttr,
+  remove as removeAttr,
+  has as hasAttr
+} from 'bianco.attr'
+
 // css helpers
 export {
   get as getCss,
@@ -25,7 +33,7 @@ export {
   loadImages
 } from 'bianco.images-loader'
 
-// viewport module
+// viewport helpers
 export {
   scrollbarWidth,
   documentHeight,
@@ -36,10 +44,7 @@ export {
   elementOffsetLeft
 } from 'bianco.viewport'
 
-// attributes helpers
+// pointer helpers
 export {
-  get as getAttr,
-  set as setAttr,
-  remove as removeAttr,
-  has as hasAttr
-} from 'bianco.attr'
+  postion as pointerPosition
+} from 'bianco.pointer'
