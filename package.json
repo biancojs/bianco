@@ -1,6 +1,6 @@
 {
   "name": "bianco",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": " Modern DOM helpers library written only in es6",
   "main": "index.js",
   "jsnext:main": "index.next.js",
