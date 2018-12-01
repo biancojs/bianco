@@ -8,8 +8,6 @@
 
 __Bianco__ is a _modern_ DOM helpers _micro library_
 
-[work in progress... come back soon!]
-
 # Why the hell?
 
 Bianco is designed on the following main concepts that I was not able to find
