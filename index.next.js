@@ -48,3 +48,7 @@ export {
 export {
   position as pointerPosition
 } from 'bianco.pointer'
+
+// utils
+export { default as forceReflow } from 'bianco.force-reflow'
+export { default as domToArray } from 'bianco.dom-to-array'

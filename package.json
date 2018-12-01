@@ -40,7 +40,9 @@
   "dependencies": {
     "bianco.attr": "^1.0.0",
     "bianco.css": "^1.0.0",
+    "bianco.dom-to-array": "0.0.10",
     "bianco.events": "^1.0.0",
+    "bianco.force-reflow": "^1.0.0",
     "bianco.images-loader": "^1.0.0",
     "bianco.pointer": "^1.0.0",
     "bianco.query": "^1.0.0",
